@@ -1,0 +1,17 @@
+/* Light mode styles */
+:root.light {
+    --background-color: #3e3e3e;
+    --text-color: #ebe2e2;
+}
+  
+/* Dark mode styles */
+:root.dark {
+    --background-color: #efebeb;
+    --text-color: #0d0d0d;
+}
+  
+/* Apply the variables */
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
